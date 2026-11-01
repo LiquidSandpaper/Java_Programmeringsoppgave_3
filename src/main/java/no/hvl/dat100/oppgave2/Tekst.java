@@ -42,11 +42,4 @@ public class Tekst extends Innlegg {
 	protected String innleggToString() {
 		return super.toString();
 	}
-	
-	// Metoden nedenfor er kun for valgfri oppgave 6
-	public String toHTML() {
-			
-		throw new UnsupportedOperationException(TODO.method());
-				
-	}
 }
